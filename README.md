@@ -51,6 +51,12 @@ A set of modules
 - Provide a mechanism to share a set of authorities to a given module
 
 
+### Concretely
+
+In a project, pick a configuration that defines a policy for all modules. When this project loads, the module loader applies the configuration to loaded modules.
+Configurations can be shared and open sourced à la es-lint configs or TS typings in https://github.com/DefinitelyTyped/DefinitelyTyped
+
+
 
 
 
