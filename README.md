@@ -34,5 +34,24 @@ This repo is used to discuss/work on a mecanism to drastically reduce the privil
 Apps in iOS, Android and Chrome/WebExtension extensions require the author to declare which authority they want ahead of time. 
 If an application tries to use more privilege than what is declared, an error is thrown (well, at least in browser extensions).
 
+## Definitions
+
+### Module
+
+A js file
+
+### Package
+
+A set of modules
+
+
+## How it works
+
+- Create a list of all possible authorities
+- Provide a mechanism to share a set of authorities to a given module
+
+
+
+
 
 
